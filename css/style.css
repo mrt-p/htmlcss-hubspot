@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #33475B;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col-2 {
+  width: 50%;
+}
+/* Fine Layout */
+
+/* Fonts */
+h1 {
+  font-size: 350%;
+}
+h6 {
+  font-weight: normal;
+}
+/* Fine Fonts */
+
+/* Buttons */
+.fa-search {
+  color: #13AAC2;
+}
+.fa-chevron-down {
+  margin-left: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  line-height: 20px;
+  border: 1px solid #FE775A;
+}
+
+.btn_white {
+  background-color: #FFFFFF;
+}
+a.btn.btn_white {
+  color: #FE775A;
+}
+.btn_orange {
+  background-color: #FE775A;
+}
+a.btn.btn_orange {
+  color: #FFFFFF;
+}
+.btn_large {
+  padding: 15px 30px;
+}
+/* Fine Buttons */
+
+/* Header */
+header {
+  height: 700px;
+}
+
+.header_container {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position: center -60%;
+  background-size: 100%;
+}
+
+.header_nav {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+  text-transform: capitalize;
+}
+
+.header_nav a {
+  text-decoration: none;
+  color: #33475B;
+}
+
+.header_nav .header_nav_left {
+  width: 40%;
+}
+.header_nav .header_nav_right {
+  width: 60%;
+  text-align: right;
+}
+
+.header_top {
+  width: 100%;
+  background-color: #F4F9FD;
+  border-bottom: 1px solid #33475B;
+}
+
+.header_bottom {
+  background-color: #FFFFFF;
+}
+
+.header_nav .header_logo,
+.header_nav .header_nav_left,
+.header_nav .header_nav_right {
+  float: left;
+}
+
+.header_nav .header_logo {
+  width: 40%;
+}
+
+.header_nav .header_logo img {
+  margin-top: 20px;
+  max-width: 100%;
+}
+/* Fine Header */
+
+/* Menu */
+.menu_inline {
+  list-style: none;
+}
+
+.menu_inline li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.vl {
+  border-left: 2px solid #33475B;
+}
+/* Fine Menu */
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  height: 500px;
+}
+
+.jumbotron_text {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+  padding-right: 100px;
+}
+
+.jumbotron_text h1 {
+  margin-bottom: 30px;
+}
+
+.jumbotron_text p {
+  margin-bottom: 30px;
+}
+
+.jumbotron_text a {
+  text-decoration: none;
+}
+
+.jumbotron_text h6 {
+  margin-top: 30px;
+}
+/* Fine Jumbotron */
+/* Banner Verde */
+.banner_green {
+  background-color: #AFEBE4;
+  height: 60px;
+  border-top: 2px solid #33475B;
+  border-bottom: 2px solid #33475B;
+}
+/* Fine Banner Verde */
