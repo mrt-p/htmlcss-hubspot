@@ -22,8 +22,16 @@ body {
   margin: 0 auto;
 }
 
+.col-1{
+  width: 100%;
+}
+
 .col-2 {
   width: 50%;
+}
+
+.col-3 {
+  width: 33.3%;
 }
 /* Fine Layout */
 
@@ -31,8 +39,17 @@ body {
 h1 {
   font-size: 350%;
 }
+h2 {
+  font-size: 250%;
+}
+h3 {
+  font-size: 150%;
+}
 h6 {
   font-weight: normal;
+}
+p {
+  line-height: 25px;
 }
 /* Fine Fonts */
 
@@ -43,11 +60,18 @@ h6 {
 .fa-chevron-down {
   margin-left: 10px;
 }
-
+.fa-check {
+  font-size: 8px;
+  margin-right: 10px;
+  color: white;
+  background-color: #FE775A;
+  padding: 5px;
+  border-radius: 20px;
+}
 .btn {
   display: inline-block;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 4px;
   line-height: 20px;
   border: 1px solid #FE775A;
 }
@@ -71,7 +95,7 @@ a.btn.btn_orange {
 
 /* Header */
 header {
-  height: 700px;
+  height: 721px;
 }
 
 .header_container {
@@ -125,7 +149,7 @@ header {
 }
 
 .header_nav .header_logo img {
-  margin-top: 20px;
+  margin-top: 25px;
   max-width: 100%;
 }
 /* Fine Header */
@@ -182,3 +206,120 @@ header {
   border-bottom: 2px solid #33475B;
 }
 /* Fine Banner Verde */
+/* Main */
+.main_container_top {
+  background-color: #F4F9FD;
+  height: 1370px;
+}
+/* Fine Main */
+/* Box Powerful */
+.powerful {
+  height: 380px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.powerful img {
+  margin-top: 30px;
+  width: 30%;
+}
+.powerful h2 {
+  margin-bottom: 30px;
+}
+/* Fine Box Powerful */
+.box {
+  background-color: white;
+  border: 2px solid rgba(51,71,91,0.08);
+  box-shadow: 0 0 11px #eaf0f6;
+  border-radius: 8px;
+}
+
+.box_container_1 {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+}
+.box_content_1 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 55px;
+}
+.box_content_1 .box_sx,
+.box_content_1 .box_dx {
+  float: left;
+}
+.box_sx {
+  width: 30%;
+}
+
+.box_sx img {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.box_button a {
+  text-decoration: none;
+}
+.box_dx {
+  width: 70%;
+}
+.box_text {
+  margin: 20px 0;
+}
+.box_subtitle {
+  margin-top: 20px;
+}
+.box_subtitle p {
+  font-weight: bold;
+}
+
+.box_subtitle ul {
+  margin-top: 20px;
+}
+.box_subtitle li {
+  list-style: none;
+}
+
+.box_container_2 {
+  width: 80%;
+  margin: 0 auto;
+  height: 650px;
+  margin-top: 40px;
+}
+
+.box_left,
+.box_center,
+.box_right {
+  width: 31.6%;
+  padding: 30px;
+  height: 600px;
+  float: left;
+  text-align: center;
+}
+.box_left img,
+.box_right img {
+  width: 30%
+}
+.box_center img {
+  width: 40%;
+}
+
+.box_center {
+  margin: 0 30px;
+}
+
+.box_container_2 h3 {
+  margin-top: 20px;
+}
+
+.box_container_2 .box_text {
+  padding-bottom: 60px;
+  border-bottom: 2px solid #e0e6ed;
+}
+
+.menu_vertical {
+  text-align: left;
+  line-height: 20px;
+}
+.box_container_2 .box_button {
+  margin-top: 40px;
+}
