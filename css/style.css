@@ -290,7 +290,7 @@ header {
 .box_container_2 {
   width: 80%;
   margin: 0 auto;
-  height: 650px;
+  height: 650;
   margin-top: 40px;
 }
 
@@ -391,6 +391,7 @@ header {
   border-right: 1px solid white;
 }
 /* Fine Box Container Blu */
+<<<<<<< HEAD
 /* Container Loghi */
 .main_container_middle_2 {
   background-color: white;
@@ -471,3 +472,5 @@ header {
   width: 50%;
 }
 /* Fine Container Finale */
+=======
+>>>>>>> main
