@@ -17,6 +17,10 @@ body {
 }
 
 /* Layout */
+li {
+  list-style: none;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -50,6 +54,7 @@ h4 {
 }
 h6 {
   font-weight: normal;
+  font-size: 80%;
 }
 p {
   line-height: 25px;
@@ -160,10 +165,6 @@ header {
 /* Fine Header */
 
 /* Menu */
-.menu_inline {
-  list-style: none;
-}
-
 .menu_inline li {
   display: inline;
   padding-right: 20px;
@@ -282,15 +283,12 @@ header {
 .box_subtitle ul {
   margin-top: 20px;
 }
-.box_subtitle li {
-  list-style: none;
-}
 /* Fine Box Container 1 */
 /* Box Container 2 */
 .box_container_2 {
   width: 80%;
   margin: 0 auto;
-  height: 650;
+  height: 650px;
   margin-top: 40px;
 }
 
@@ -391,7 +389,6 @@ header {
   border-right: 1px solid white;
 }
 /* Fine Box Container Blu */
-<<<<<<< HEAD
 /* Container Loghi */
 .main_container_middle_2 {
   background-color: white;
@@ -472,5 +469,93 @@ header {
   width: 50%;
 }
 /* Fine Container Finale */
-=======
->>>>>>> main
+/* Footer */
+footer {
+  background-color: #33475B;
+  height: 650px;
+  margin-top: 100px;
+  width: 100%;
+}
+footer a {
+  color: #cbd6e2;
+}
+.links {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.first_li a{
+  color: white;
+  font-weight: bold;
+}
+.links li {
+  margin-top: 20px;
+  color: #cbd6e2;
+}
+.links_1 {
+  width: 25%;
+}
+.links .links_1 {
+  float: left;
+}
+.li_btn {
+  width: 60%;
+  padding: 8px 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #cbd6e2;
+  text-align: center;
+}
+.li_btn a {
+  color: #33475B;
+  font-size: 90%;
+}
+.li_social {
+  width: 60%;
+  text-align: center;
+}
+.li_social .fab {
+  margin-right: 18px;
+}
+.lingue {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 40px;
+}
+.lingue_menu {
+  width: 80%;
+  margin: 50px auto 30px auto;
+  font-size: 120%;
+}
+.lingue_hr {
+  width: 75%;
+  margin: 0 auto;
+  border-bottom: 1px solid #cbd6e2;
+}
+.footer_bottom {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.footer_bottom h6 {
+  color: #cbd6e2;
+  margin-top: 10px;
+}
+
+.footer_bottom .footer_logo,
+.footer_bottom .footer_privacy {
+  float: left;
+}
+.footer_logo {
+  width: 50%;
+}
+.footer_privacy {
+  width: 50%;
+  text-align: right;
+}
+.footer_privacy li {
+  padding: 50px 0 0 20px;
+}
+/* Fine Footer */
